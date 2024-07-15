@@ -1,0 +1,41 @@
+@use "sass:map";
+
+// Colors
+$colors: (
+    "white": #fff,
+    "very-dark-gray": #222222,
+    "dark-red": #aa0e2b,
+    "dark-grayish-yellow": #969d76,
+    "very-light-gray": #f5f5f5,
+    "very-soft-red": #de95a2,
+    "dark-gray": #444444
+);
+
+$primary-color: map.get($colors, "very-dark-gray");
+$secondary-color: map.get($colors, "dark-grayish-yellow") ;
+$ternary-color: map.get($colors, "dark-red");
+$accent-color: map.get($colors, "very-soft-red");
+
+$text-color: $primary-color;
+
+
+// Breakpoints 
+$breakpoints-up: (
+    "sm": 576px,
+    "md": 768px,
+    "lg": 992px,
+    "xl": 1200px,
+    "xxl": 1400px,
+    "xxxl": 1900px
+);
+
+// Fonts
+$poppins: "Poppins", sans-serif;
+$red-hat-display: "Red Hat Display", sans-serif;
+
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700,
+    "black": 900
+)

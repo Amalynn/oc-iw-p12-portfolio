@@ -1,0 +1,14 @@
+@use './variables' as var;
+@use "sass:map";
+
+// Media queries
+@mixin media-breakpoints-up($breakpoint){
+    @media only screen and (min-width: map-get(var.$breakpoints-up, $breakpoint)) {
+        @content;
+    }   
+}
+
+// Reset list
+@mixin reset-list {
+    list-style: none;
+}

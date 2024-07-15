@@ -1,0 +1,15 @@
+@use '../utils/variables' as var;
+@use "sass:map";
+
+/* Base */
+body {
+    font-family: var.$red-hat-display ;
+    color: var.$text-color ;
+    font-weight: map-get(var.$font-weights, regular);
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
