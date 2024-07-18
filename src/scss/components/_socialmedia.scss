@@ -1,0 +1,65 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m ;
+@use "sass:map";
+
+.socialmedia {
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    align-items: center;    
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background-color: #222;
+    color: var.$social-media-text-color;     
+    border-radius: 50%;         
+    transition: 0.5s ease-in-out;   
+    
+    @include m.media-breakpoints-up(md) {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+    }
+
+    @include m.media-breakpoints-up(xl) {
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+    }
+    
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        background-color: var.$ternary-color;        
+        z-index: -1;
+        transform: scale(0.9);              
+        transition: 0.5s;         
+    }    
+    
+    &:hover::after {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px var.$ternary-color ;
+    }
+
+    &:hover {
+        color: var.$ternary-color;
+        font-size: 18px;
+
+        @include m.media-breakpoints-up(md) {
+            font-size: 20px;
+        }
+
+        @include m.media-breakpoints-up(xl) {
+            font-size: 22px;
+        }       
+    }        
+}
+
+        
+
+

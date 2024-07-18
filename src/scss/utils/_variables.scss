@@ -2,7 +2,7 @@
 
 // Colors
 $colors: (
-    "white": #fff,
+    "white-clr": #fff,
     "very-dark-gray": #222222,
     "dark-red": #aa0e2b,
     "dark-grayish-yellow": #969d76,
@@ -18,6 +18,11 @@ $accent-color: map.get($colors, "very-soft-red");
 
 $text-color: $primary-color;
 
+$social-media-bg-color: map-get($colors, "dark-gray");
+$social-media-text-color: map-get($colors, "white-clr");
+
+$footer-bg: $primary-color;
+$footer-text-color: map-get($colors, "white-clr");
 
 // Breakpoints 
 $breakpoints-up: (
