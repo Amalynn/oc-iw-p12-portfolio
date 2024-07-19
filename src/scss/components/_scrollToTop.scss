@@ -1,0 +1,22 @@
+@use "../utils/variables" as var ;
+
+.scroll-to-top {    
+    background-color: var.$ternary-color;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    cursor: pointer;     
+
+    i {
+        color: var.$white-color;
+        font-size: 23px;        
+    }
+
+    &:hover{
+        background-color: var.$accent-color;
+    }
+}

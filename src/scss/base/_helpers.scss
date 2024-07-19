@@ -1,0 +1,21 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px;
+
+        @include m.media-breakpoints-up(md) {
+            padding: 0 50px;
+        }
+
+        @include m.media-breakpoints-up(xxl) {
+            padding: 0 110px;
+        }
+}
+
+.container-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
