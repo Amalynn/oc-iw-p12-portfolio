@@ -1,0 +1,62 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m ;
+@use "sass:map";
+
+.title-section {
+    position: relative;   
+    width: fit-content;
+    height: fit-content;
+    margin: 40px auto;
+    z-index: 2;    
+
+    &-h2 {   
+    font-size: clamp(1rem, 0.3578rem + 2.936vw, 3rem);
+    font-weight: map-get(var.$font-weights, bold) ;
+    position: relative;  
+    padding-left: 20px; 
+    width: fit-content; 
+    
+    @include m.media-breakpoints-up(xl) {
+        padding-left: 30px;
+    }
+
+        &::before {
+            content: "";
+            position: absolute; 
+            left: 0; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            border-left: 10px solid var.$secondary-color;
+            height: 100%; 
+
+            @include m.media-breakpoints-up(xl) {
+                border-left: 15px solid var.$secondary-color;
+            }
+        }
+    }
+
+    & > &-number {        
+        font-weight: map.get(var.$font-weights, "black");
+        font-size: clamp(4.6875rem, 3.1823rem + 6.881vw, 9.375rem);     
+        opacity: 0.1;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -40%);          
+        z-index: -1;  
+
+        @include m.media-breakpoints-up(md) {
+            transform: translate(-50%, -37%);
+        }
+
+        @include m.media-breakpoints-up(xl) {
+            transform: translate(-50%, -35%);
+        }
+    }
+  }
+  
+  
+  
+  
+  
+  

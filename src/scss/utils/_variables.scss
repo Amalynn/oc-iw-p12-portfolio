@@ -16,6 +16,7 @@ $secondary-color: map.get($colors, "dark-grayish-yellow") ;
 $ternary-color: map.get($colors, "dark-red");
 $accent-color: map.get($colors, "very-soft-red");
 $white-color: map.get($colors, "white-clr");
+$section-bg-color: map.get($colors, "very-light-gray");
 
 $text-color: $primary-color;
 $section-bg-color: map.get($colors, "very-light-gray");

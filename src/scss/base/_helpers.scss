@@ -1,21 +1,30 @@
 @use "../utils/variables" as var;
 @use "../utils/mixins" as m;
 
-.main-container {
+.main-container {    
     width: 100%;
     max-width: 1440px;
-    padding: 0 20px;
+    padding: 50px 20px;    
 
         @include m.media-breakpoints-up(md) {
-            padding: 0 50px;
+            padding: 80px 50px;
         }
 
         @include m.media-breakpoints-up(xxl) {
-            padding: 0 110px;
+            padding: 112px 110px;
         }
 }
 
 .container-flex-end {
     display: flex;
     justify-content: flex-end;
+}
+
+.section-bg--gray {
+    background-color: var.$section-bg-color;
+}
+
+.container-flex--center {
+    display: flex;
+    justify-content: center;    
 }
