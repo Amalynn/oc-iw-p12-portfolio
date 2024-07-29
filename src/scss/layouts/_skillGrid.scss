@@ -1,0 +1,30 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m ;
+
+.skills-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+
+    @include m.media-breakpoints-up(sm) {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    @include m.media-breakpoints-up(lg) {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 50px;
+        column-gap: 40px;
+    }
+
+    @include m.media-breakpoints-up(xxl) {
+        margin-top: 160px ;
+        row-gap: 80px;
+        column-gap: 70px;
+    }
+
+
+
+}

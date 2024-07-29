@@ -1,0 +1,52 @@
+{
+    "skills": [
+        {
+            "id": "skill-01",
+            "category": "IT",
+            "name": "Intégration front-end",
+            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "faIcon": "fa-solid fa-code",
+            "isVisible": true
+        },
+        {
+            "id": "skill-02",
+            "category": "Gestion de projet" ,
+            "name": "Gestion de projet",
+            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "faIcon": "fa-solid fa-business-time",
+            "isVisible": true
+        },
+        {
+            "id": "skill-03",
+            "category": "IT" ,
+            "name": "SEO",
+            "description":"Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat." ,
+            "faIcon": "fa-solid fa-arrow-trend-up",
+            "isVisible": true
+        },
+        {
+            "id": "skill-04",
+            "category": "IT",
+            "name": "Débuggage & Tests" ,
+            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie." ,
+            "faIcon": "fa-solid fa-flask-vial",
+            "isVisible": true
+        },
+        {
+            "id": "skill-05",
+            "category": "IT",
+            "name": "API",
+            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "faIcon": "fa-solid fa-server",
+            "isVisible": true
+        },
+        {
+            "id": "skill-06",
+            "category": "Soft skills" ,
+            "name": "Apprentissage continu",
+            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "isVisible": true
+        }
+    ]
+}

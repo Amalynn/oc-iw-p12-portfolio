@@ -1,5 +1,6 @@
 import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
+import SkillList from "../containers/SkillList.jsx";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
                             title="Des compétences à votre services"
                             number="02"
                         />
+                        <SkillList />
                     </div>
                 </section>
                 <section id="projects" className="container-flex--center">

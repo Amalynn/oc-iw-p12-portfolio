@@ -1,0 +1,49 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.skill-card {
+    padding: 10px;
+    width: 100%;    
+
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        i {
+            font-size: 40px; 
+
+            @include m.media-breakpoints-up(xxl){
+                font-size: 60px;
+            }
+        }
+    }
+
+    &-body {
+
+        h4 {
+            font-size: 15px;
+            font-weight: map.get(var.$font-weights, bold);
+            font-family: var.$poppins;
+            text-align: center;
+
+            @include m.media-breakpoints-up(xxl){
+                font-size: 23px;
+            }
+
+
+        }
+
+        p {
+            font-size: 14px;
+            text-align: justify;
+            margin-top: 10px;
+
+            @include m.media-breakpoints-up(lg){
+                font-size: 16px;
+            }
+        }
+    }
+}
