@@ -1,5 +1,6 @@
 import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
+import AproposContent from "../containers/AproposContent.jsx";
 import SkillList from "../containers/SkillList.jsx";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
                             title="Parlez-moi de vous..."
                             number="01"
                         />
+                        <AproposContent />
                     </div>
                 </section>
                 <section id="skills" className="section-bg--gray container-flex--center">
