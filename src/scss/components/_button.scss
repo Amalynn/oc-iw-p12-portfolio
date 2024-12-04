@@ -1,0 +1,84 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.button {
+    border-radius: 50px;
+    color: var.$white-color;
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    font-family: var.$poppins;
+    font-size: 14px;
+    font-weight: map-get(var.$font-weights, medium);    
+
+    @include m.media-breakpoints-up(md) {
+        font-size: 16px;
+    }
+
+    @include m.media-breakpoints-up(xl) {
+        font-size: 18px;
+    }
+    
+    &-download-cv {
+        background-color: var.$ternary-color; 
+        position: relative;
+        overflow: hidden;
+        
+        @include m.media-breakpoints-up(sm) {
+            flex: 1 1 40%;
+        }
+
+        &:hover {
+            &::after {
+                transform: translateX(500px) rotate(50deg);
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: var.$white-color;
+            left: -50%;
+            top: 0;
+            width: 100%;
+            height: 25px;
+            box-shadow: 0 0 15px var.$white-color;
+            filter: blur(6px);
+            opacity: 0.9;
+            transform: translateX(-100px) rotate(50deg);
+            transition: transform 800ms ease-in-out;
+        }
+    }
+
+    &-email {
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        border: 2px solid var.$ternary-color ;
+
+        &:hover {
+            &::after {
+                opacity: 1;
+            }
+        }
+ 
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 50px;
+            background-color: var.$ternary-color;
+            opacity: 0;
+            z-index: -1;
+            transition: opacity 350ms ease-in-out;
+        }
+
+        @include m.media-breakpoints-up(sm) {
+            flex: 1 1 40%;
+        }
+    }
+}

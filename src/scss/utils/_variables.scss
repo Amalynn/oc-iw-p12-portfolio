@@ -29,6 +29,7 @@ $footer-text-color: map-get($colors, "white-clr");
 
 // Breakpoints 
 $breakpoints-up: (
+    "xs": 450px,
     "sm": 576px,
     "md": 768px,
     "lg": 992px,

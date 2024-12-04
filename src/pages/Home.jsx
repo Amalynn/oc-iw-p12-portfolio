@@ -1,6 +1,7 @@
 import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
 import AproposContent from "../containers/AproposContent.jsx";
+import CTASection from "../containers/CTASection.jsx";
 import SkillList from "../containers/SkillList.jsx";
 
 
@@ -25,6 +26,7 @@ export default function Home() {
                         <SkillList />
                     </div>
                 </section>
+                <CTASection />
                 <section id="projects" className="container-flex--center">
                     <div className="main-container">
                         <TitleSection 

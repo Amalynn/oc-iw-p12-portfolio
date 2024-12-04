@@ -254,6 +254,81 @@ a {
   }
 }
 
+.button {
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .button {
+    font-size: 18px;
+  }
+}
+.button-download-cv {
+  background-color: #aa0e2b;
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (min-width: 576px) {
+  .button-download-cv {
+    flex: 1 1 40%;
+  }
+}
+.button-download-cv:hover::after {
+  transform: translateX(500px) rotate(50deg);
+}
+.button-download-cv::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: -50%;
+  top: 0;
+  width: 100%;
+  height: 25px;
+  box-shadow: 0 0 15px #fff;
+  filter: blur(6px);
+  opacity: 0.9;
+  transform: translateX(-100px) rotate(50deg);
+  transition: transform 800ms ease-in-out;
+}
+.button-email {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  border: 2px solid #aa0e2b;
+}
+.button-email:hover::after {
+  opacity: 1;
+}
+.button-email::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+  background-color: #aa0e2b;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 350ms ease-in-out;
+}
+@media only screen and (min-width: 576px) {
+  .button-email {
+    flex: 1 1 40%;
+  }
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -371,6 +446,90 @@ a {
 }
 .apropos-content-description p:first-child {
   margin-bottom: 25px;
+}
+
+.cta-section {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  width: 100%;
+  height: 415px;
+  background-image: url(../../assets/images/cta-section/cta-section-xs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+@media only screen and (min-width: 576px) {
+  .cta-section {
+    height: 315px;
+    background-image: url(../../assets/images/cta-section/cta-section-xxxl.jpg);
+    background-position: left;
+  }
+}
+.cta-section img {
+  width: 100%;
+  height: 100%;
+}
+.cta-section-content {
+  position: absolute;
+  inset: 0;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 0.7);
+  text-align: center;
+}
+.cta-section-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 576px) {
+  .cta-section-content h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cta-section-content h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .cta-section-content h3 {
+    font-size: 26px;
+  }
+}
+.cta-section-content p {
+  margin-top: 30px;
+  max-width: 400px;
+}
+@media only screen and (min-width: 576px) {
+  .cta-section-content p {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .cta-section-content p {
+    font-size: 22px;
+  }
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  margin-top: 55px;
+  width: 80%;
+  max-width: 550px;
+}
+@media only screen and (min-width: 576px) {
+  .button-group {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 35px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
