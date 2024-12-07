@@ -215,38 +215,34 @@ a {
 }
 
 .skill-card {
-  padding: 10px;
+  padding: 40px;
   width: 100%;
+  background-color: #fff;
+  border: 2px solid #969d76;
+  border-radius: 15px;
 }
 .skill-card-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 .skill-card-header i {
-  font-size: 40px;
-}
-@media only screen and (min-width: 1400px) {
-  .skill-card-header i {
-    font-size: 60px;
-  }
+  font-size: 30px;
 }
 .skill-card-body h4 {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-align: center;
-}
-@media only screen and (min-width: 1400px) {
-  .skill-card-body h4 {
-    font-size: 23px;
-  }
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .skill-card-body p {
   font-size: 14px;
-  text-align: justify;
+  text-align: center;
   margin-top: 10px;
+  line-height: 25px;
 }
 @media only screen and (min-width: 992px) {
   .skill-card-body p {

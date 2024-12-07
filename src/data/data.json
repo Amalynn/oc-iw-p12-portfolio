@@ -4,7 +4,7 @@
             "id": "skill-01",
             "category": "IT",
             "name": "Intégration front-end",
-            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "description": "Intégration d'interfaces responsives à partir de maquettes. Mise en oeuvre d'animations CSS.",
             "faIcon": "fa-solid fa-code",
             "isVisible": true
         },
@@ -12,7 +12,7 @@
             "id": "skill-02",
             "category": "Gestion de projet" ,
             "name": "Gestion de projet",
-            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "description": "Organisation & Planification de projets (Scrum, Kanban, Waterfall). Rédaction de spécifications techniques.",
             "faIcon": "fa-solid fa-business-time",
             "isVisible": true
         },
@@ -20,15 +20,15 @@
             "id": "skill-03",
             "category": "IT" ,
             "name": "SEO",
-            "description":"Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat." ,
+            "description":"Diagnostique des problèmes de performance et d'accessibilité. Optimisation du référencement naturel." ,
             "faIcon": "fa-solid fa-arrow-trend-up",
             "isVisible": true
         },
         {
             "id": "skill-04",
             "category": "IT",
-            "name": "Débuggage & Tests" ,
-            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie." ,
+            "name": "Débugage & Tests" ,
+            "description": "Rédaction d'un cahier de recette. Exécution & rédaction de tests (fonctionnels, unitaires et d'intégration). Débugage.",
             "faIcon": "fa-solid fa-flask-vial",
             "isVisible": true
         },
@@ -36,7 +36,7 @@
             "id": "skill-05",
             "category": "IT",
             "name": "API",
-            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "description": "Envoi et affcihage de données via des appels API. Ecriture et configuration de routes API. Rédaction de la documentation d'une API avec Swagger.",
             "faIcon": "fa-solid fa-server",
             "isVisible": true
         },
@@ -44,7 +44,7 @@
             "id": "skill-06",
             "category": "Soft skills" ,
             "name": "Apprentissage continu",
-            "description": "Lectus tortor lorem sed lorem varius. Lectus senectus elementum scelerisque maecenas massa iaculis tincidunt molestie a. Volutpat faucibus in euismod volutpat. Volutpat faucibus in euismod volutpat.",
+            "description": "Veille technologique & Formation continue",
             "faIcon": "fa-solid fa-graduation-cap",
             "isVisible": true
         }

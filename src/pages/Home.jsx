@@ -2,7 +2,7 @@ import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
 import AproposContent from "../containers/AproposContent.jsx";
 import CTASection from "../containers/CTASection.jsx";
-import SkillList from "../containers/SkillList.jsx";
+import SkillsSection from "../containers/SkillsSection.jsx";
 
 
 export default function Home() {
@@ -17,15 +17,7 @@ export default function Home() {
                         <AproposContent />
                     </div>
                 </section>
-                <section id="skills" className="section-bg--gray container-flex--center">
-                    <div className="main-container">
-                        <TitleSection 
-                            title="Des compétences à votre services"
-                            number="02"
-                        />
-                        <SkillList />
-                    </div>
-                </section>
+                <SkillsSection />                
                 <CTASection />
                 <section id="projects" className="container-flex--center">
                     <div className="main-container">
