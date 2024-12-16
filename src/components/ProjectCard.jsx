@@ -1,6 +1,11 @@
 import PropTypes from "prop-types";
 
-export default function ProjectCard({ title, srcImage, altImage, label }) {
+export default function ProjectCard({
+    title,
+    srcImage,
+    altImage = "image",
+    label,
+}) {
     return (
         <article className="project-card">
             <div className="project-card-image">
@@ -19,8 +24,4 @@ ProjectCard.propTypes = {
     srcImage: PropTypes.string.isRequired,
     altImage: PropTypes.string,
     label: PropTypes.string.isRequired,
-};
-
-ProjectCard.defaultProps = {
-    alt: "image",
 };
