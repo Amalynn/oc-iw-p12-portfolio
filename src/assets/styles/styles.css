@@ -1,6 +1,6 @@
 /* Typographies - Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Red+Hat+Display:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Red+Hat+Display:wght@300..900&display=swap");
 /* CSS RESET */
 /* Adapted from Josh Comeau's CSS : https://www.joshwcomeau.com/css/custom-css-reset/  */
 *,
@@ -322,6 +322,149 @@ a {
 @media only screen and (min-width: 576px) {
   .button-email {
     flex: 1 1 40%;
+  }
+}
+
+.filter-button {
+  color: #969d76;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid #969d76;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 15px;
+  transition: background-color 350ms ease-in-out, color 150ms ease-in-out 200ms;
+}
+@media only screen and (min-width: 768px) {
+  .filter-button {
+    font-size: 16px;
+    padding: 6px 25px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .filter-button {
+    font-size: 18px;
+    padding: 8px 30px;
+    font-weight: 700;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .filter-button {
+    font-size: 20px;
+    padding: 10px 45px;
+  }
+}
+.filter-button:hover {
+  background-color: #969d76;
+  color: #fff;
+}
+.filter-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 7px;
+  row-gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 768px) {
+  .filter-button-group {
+    margin-top: 80px;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .filter-button-group {
+    margin-top: 90px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .filter-button-group {
+    margin-top: 110px;
+    row-gap: 20px;
+    column-gap: 30px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .filter-button-group {
+    margin-top: 130px;
+  }
+}
+
+.project-card {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  height: 200px;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #222222;
+  margin: 0 auto;
+  filter: drop-shadow(8px 8px 5px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .project-card {
+    height: 250px;
+  }
+}
+.project-card-image {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+.project-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 350ms ease-in-out, transform 350ms ease-in-out 100ms;
+}
+.project-card-title {
+  height: 20%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.project-card-label {
+  position: absolute;
+  background-color: #aa0e2b;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+.project-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}
+.project-card-list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .project-card-list {
+    margin-top: 75px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .project-card-list {
+    margin-top: 85px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

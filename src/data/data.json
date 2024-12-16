@@ -10,7 +10,7 @@
         },
         {
             "id": "skill-02",
-            "category": "Gestion de projet" ,
+            "category": "Gestion de projet",
             "name": "Gestion de projet",
             "description": "Organisation & Planification de projets (Scrum, Kanban, Waterfall). Rédaction de spécifications techniques.",
             "faIcon": "fa-solid fa-business-time",
@@ -18,16 +18,16 @@
         },
         {
             "id": "skill-03",
-            "category": "IT" ,
+            "category": "IT",
             "name": "SEO",
-            "description":"Diagnostique des problèmes de performance et d'accessibilité. Optimisation du référencement naturel." ,
+            "description": "Diagnostique des problèmes de performance et d'accessibilité. Optimisation du référencement naturel.",
             "faIcon": "fa-solid fa-arrow-trend-up",
             "isVisible": true
         },
         {
             "id": "skill-04",
             "category": "IT",
-            "name": "Débugage & Tests" ,
+            "name": "Débugage & Tests",
             "description": "Rédaction d'un cahier de recette. Exécution & rédaction de tests (fonctionnels, unitaires et d'intégration). Débugage.",
             "faIcon": "fa-solid fa-flask-vial",
             "isVisible": true
@@ -42,10 +42,209 @@
         },
         {
             "id": "skill-06",
-            "category": "Soft skills" ,
+            "category": "Soft skills",
             "name": "Apprentissage continu",
             "description": "Veille technologique & Formation continue",
             "faIcon": "fa-solid fa-graduation-cap",
+            "isVisible": true
+        }
+    ],
+    "projects": [
+        {
+            "id": "oc-iw-p7-menumaker-2024",
+            "name": "Menu Maker by Qwenta",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "gestion de projets",
+            "description": [
+                "Planification du développement du site Menu Maker de l'entreprise fictive Qwenta.",
+                "Qwenta est un acteur historique dans le domaine de l'impression de supports destinés aux professionnels de tous secteurs.",
+                "L'entreprise cherche à se diversifier en se positionnant notamment dans le secteur du digital avec le développement d'un outil en ligne : Menu Maker.",
+                "Menu Maker permettra aux restaurateurs de mettre en page leurs menus en quelques clics et de les publier en ligne facilement."
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": ["Notion", "Scrum", "Kanban", "Feedly"],
+            "activities": [
+                "Rédaction des spécifications techniques",
+                "Mise en place d'une veille technologique",
+                "Décomposition des fonctionnalités en tâches spécifiques",
+                "Planification du suivi du projet",
+                "Création d'un tableau Kanban",
+                "Présentation de la solution technique"
+            ],
+            "isVisible": true
+        },
+        {
+            "id": "oc-iw-p10-724events-2024",
+            "name": "724events",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "débugage",
+            "description": [
+                "Poursuite des développements et débugage de la nouvelle version du site vitrine one-page de l'agance évènementielle fictive 724events suite au travail d'un précédent développeur."
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": [
+                "React",
+                "Sass",
+                "Jest",
+                "Testing Library",
+                "Chrome DevTools"
+            ],
+            "activities": [
+                "Identification et correction de bugs",
+                "Rédaction d'un cahier de recette",
+                "Ecriture et exécution de tests uniatires et d'intégration"
+            ],
+            "github": "https://github.com/Amalynn/oc-iw-p10-724events",
+            "isVisible": true
+        },
+        {
+            "id": "oc-iw-p8-kasa-2024",
+            "name": "Kasa",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "react",
+            "description": [
+                "Développement de l'interface front-end de l'application Kasa avec React.",
+                "Kasa est une entreprise fictive de location d'appartements entre particuliers. Le site web de Kasa a été codé, il y en plus de 10 ans en ASP.NET avec un code legacy important. L'entreprise a donc décidé de lancer une refonte totale du site pour passer à une stack complète en JavaScript avec Node.js côté back-end et React côté front-end.  "
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": [
+                "Vite",
+                "React",
+                "React Router",
+                "Node.js",
+                "Sass"
+            ],
+            "activities": [
+                "Initialisation d'una application avec Vite",
+                "Développement des éléments d'une interface web à partir de composants React",
+                "Configuration de la navigation entre les pages de l'application avec React Router",
+                "Mise en oeuvre d'animation CSS",
+                "Développement d'une interface web avec Sass"
+            ],
+            "github": "https://github.com/Amalynn/oc-iw-p8-kasa",
+            "isVisible": true
+        },
+        {
+            "id": "oc-iw-p9-nina-carducci-2024",
+            "name": "Nina Carducci",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "seo",
+            "description": [
+                "Optimiser le référencement du site de Nina Carducci, photographe fictive, en améliorant la performance et l'accessibilité du site web."
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": ["Lighthouse", "Wave", "GTMetrix"],
+            "activities": [
+                "Identification des problèmes de chargement et de référencement",
+                "Optimisation du SEO technique",
+                "Optimisation de la performance du site web",
+                "Mise en place du référencement local (Schema.org)",
+                "Ajout des réseaux sociaux",
+                "Amélioration de l'accessibilité du site",
+                "Rédaction d'un rapport d'optimisation"
+            ],
+            "github": "https://github.com/Amalynn/oc-iw-p9-nina-carducci",
+            "url": "https://amalynn.github.io/oc-iw-p9-nina-carducci/",
+            "isVisible": true
+        },
+        {
+            "id": "oc-iw-p11-argentbank-2024",
+            "name": "Argent Bank",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "react",
+            "description": [
+                "Développer l'interface front-end de l'application bancaire Argent Bank",
+                "Argent Bank est une nouvelle banque en ligne fictive qui souhaite percer dans le secteur bancaire"
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": [
+                "React",
+                "Redux toolkit",
+                "Vite",
+                "Node.js",
+                "Swagger"
+            ],
+            "activities": [
+                "Développement d'un tableau de bord responsive",
+                "Ecriture de routes API et rédaction de la documentation associée",
+                "Gestion de l'état global de l'application",
+                "Affichage des données du backend sur l'interface via des appels API"
+            ],
+            "github": "https://github.com/Amalynn/oc-iw-p11-argentbank-frontend",
+            "isVisible": true
+        },
+        {
+            "id": "oc-iw-p12-portfolio-2024",
+            "name": "Portfolio",
+            "cover": "",
+            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "categories": "react",
+            "description": [
+                "Développement de mon portfolio présentant mon parcours, mes compétences et les projets sur lesquels j'ai travaillé"
+            ],
+            "images": [],
+            "year": "2024",
+            "technologies": [
+                "React",
+                "React Router",
+                "Sass",
+                "Vite",
+                "Figma",
+                "Gimp"
+            ],
+            "activities": [
+                "Conception du design et maquettage du projet ",
+                "Choix de la charte graphique",
+                "Conception des images du site ",
+                "Développement de l'interface front-end responsive",
+                "Mise en oeuvre des animations CSS",
+                "Référencement SEO et réseaux sociaux",
+                "Déploiement du site en ligne"
+            ],
+            "github": "https://github.com/Amalynn/oc-iw-p12-portfolio",
+            "url": "",
+            "isVisible": true
+        },
+        {
+            "id": "msh-vdl-cepatlas-2024",
+            "name": "CepAtlas",
+            "cover": "",
+            "type": "Création de site web",
+            "categories": "php",
+            "description": [""],
+            "images": [],
+            "year": "2020-2022",
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "UML",
+                "Sass",
+                "Bootstrap",
+                "FPDF",
+                "QGIS",
+                "Adobe Illustrator",
+                "R",
+                "PostgreSQL"
+            ],
+            "activities": [
+                "Maquettage du prototype",
+                "Conception et implémentation de la base de données",
+                "Développement de l'interface front-end responsive",
+                "Gestion du back-end",
+                "Génération automatique des PDF",
+                "Cartographie"
+            ],
+            "url": "https://cepatlas.huma-num.fr/",
             "isVisible": true
         }
     ]

@@ -1,0 +1,68 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.filter-button {
+    color: var.$secondary-color;
+    background-color: var.$white-color;
+    border-radius: 50px;
+    border: 2px solid var.$secondary-color;
+    font-family: var.$poppins;
+    font-size: 14px;
+    font-weight: map-get(var.$font-weights, semi-bold);
+    cursor: pointer;
+    padding: 4px 15px;
+    transition:
+        background-color 350ms ease-in-out,
+        color 150ms ease-in-out 200ms;
+
+    @include m.media-breakpoints-up(md) {
+        font-size: 16px;
+        padding: 6px 25px;
+    }
+
+    @include m.media-breakpoints-up(lg) {
+        font-size: 18px;
+        padding: 8px 30px;
+        font-weight: map-get(var.$font-weights, bold);
+    }
+
+    @include m.media-breakpoints-up(xxxl) {
+        font-size: 20px;
+        padding: 10px 45px;
+    }
+
+    &:hover {
+        background-color: var.$secondary-color;
+        color: var.$white-color;
+    }
+
+    &-group {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 7px;
+        row-gap: 10px;
+        justify-content: center;
+        margin-top: 50px;
+
+        @include m.media-breakpoints-up(md) {
+            margin-top: 80px;
+            row-gap: 15px;
+            column-gap: 15px;
+        }
+
+        @include m.media-breakpoints-up(lg) {
+            margin-top: 90px;
+        }
+
+        @include m.media-breakpoints-up(xxl) {
+            margin-top: 110px;
+            row-gap: 20px;
+            column-gap: 30px;
+        }
+
+        @include m.media-breakpoints-up(xxxl) {
+            margin-top: 130px;
+        }
+    }
+}

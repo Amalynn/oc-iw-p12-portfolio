@@ -2,47 +2,39 @@ import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
 import AproposContent from "../containers/AproposContent.jsx";
 import CTASection from "../containers/CTASection.jsx";
+import ProjectsSection from "../containers/ProjectsSection.jsx";
 import SkillsSection from "../containers/SkillsSection.jsx";
 
-
 export default function Home() {
-    return ( <>
+    return (
+        <>
             <main>
-                <section id="apropos" className="container-flex--center" >
+                <section id="apropos" className="container-flex--center">
                     <div className="main-container">
-                        <TitleSection 
+                        <TitleSection
                             title="Parlez-moi de vous..."
                             number="01"
                         />
                         <AproposContent />
                     </div>
                 </section>
-                <SkillsSection />                
+                <SkillsSection />
                 <CTASection />
-                <section id="projects" className="container-flex--center">
+                <ProjectsSection />
+                <section
+                    id="contact"
+                    className="section-bg--gray container-flex--center"
+                >
                     <div className="main-container">
-                        <TitleSection 
-                            title="Des projets enrichissants"
-                            number="03"
-                        />
-                    </div>
-                </section>
-                <section id="contact" className="section-bg--gray container-flex--center">
-                    <div className="main-container">
-                        <TitleSection 
-                            title="Restons en contact"
-                            number="04"
-                        />
+                        <TitleSection title="Restons en contact" number="04" />
                     </div>
                 </section>
                 <section className="scroll-to-top-section">
                     <div className="container-flex-end">
                         <ScrollToTop />
-                    </div>                    
+                    </div>
                 </section>
-
             </main>
-            
         </>
-    )
+    );
 }

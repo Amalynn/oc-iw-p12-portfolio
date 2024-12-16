@@ -8,11 +8,11 @@ $colors: (
     "dark-grayish-yellow": #969d76,
     "very-light-gray": #f5f5f5,
     "very-soft-red": #de95a2,
-    "dark-gray": #444444
+    "dark-gray": #444444,
 );
 
 $primary-color: map.get($colors, "very-dark-gray");
-$secondary-color: map.get($colors, "dark-grayish-yellow") ;
+$secondary-color: map.get($colors, "dark-grayish-yellow");
 $ternary-color: map.get($colors, "dark-red");
 $accent-color: map.get($colors, "very-soft-red");
 $white-color: map.get($colors, "white-clr");
@@ -27,7 +27,7 @@ $social-media-text-color: map-get($colors, "white-clr");
 $footer-bg: $primary-color;
 $footer-text-color: map-get($colors, "white-clr");
 
-// Breakpoints 
+// Breakpoints
 $breakpoints-up: (
     "xs": 450px,
     "sm": 576px,
@@ -35,7 +35,7 @@ $breakpoints-up: (
     "lg": 992px,
     "xl": 1200px,
     "xxl": 1400px,
-    "xxxl": 1900px
+    "xxxl": 1900px,
 );
 
 // Fonts
@@ -45,6 +45,7 @@ $red-hat-display: "Red Hat Display", sans-serif;
 $font-weights: (
     "regular": 400,
     "medium": 500,
+    "semi-bold": 600,
     "bold": 700,
-    "black": 900
-)
+    "black": 900,
+);
