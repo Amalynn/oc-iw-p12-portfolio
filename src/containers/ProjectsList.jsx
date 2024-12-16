@@ -1,8 +1,11 @@
 import FilterButton from "../components/FilterButton";
 import ProjectCard from "../components/ProjectCard";
-//import data from "../data/data.json";
+import { useContext } from "react";
+import { DataContext } from "../contexts/DataContext";
 
 export default function ProjectsList() {
+    const data = useContext(DataContext);
+    console.log(data);
     // const categoriesProjectList = new Set(
     //     data?.projects.map((project) => project.categories)
     // ).add("Tous");
