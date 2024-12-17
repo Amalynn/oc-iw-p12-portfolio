@@ -65,4 +65,9 @@
             margin-top: 130px;
         }
     }
+
+    &--active {
+        background-color: var.$secondary-color;
+        color: var.$white-color;
+    }
 }

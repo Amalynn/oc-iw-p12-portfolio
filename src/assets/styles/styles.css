@@ -392,6 +392,10 @@ a {
     margin-top: 130px;
   }
 }
+.filter-button--active {
+  background-color: #969d76;
+  color: #fff;
+}
 
 .project-card {
   border-radius: 10px;
