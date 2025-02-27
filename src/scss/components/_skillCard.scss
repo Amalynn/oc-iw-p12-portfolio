@@ -5,9 +5,7 @@
 .skill-card {
     padding: 40px;
     width: 100%;
-    background-color: var.$white-color;
-    border: 2px solid var.$secondary-color;
-    border-radius: 15px;    
+    border-radius: 15px;
 
     &-header {
         display: flex;
@@ -16,19 +14,18 @@
         margin-bottom: 40px;
 
         i {
-            font-size: 30px;            
+            font-size: 30px;
         }
     }
 
     &-body {
-
         h4 {
             font-size: 13px;
             font-weight: map.get(var.$font-weights, bold);
             font-family: var.$poppins;
             text-align: center;
             letter-spacing: 1px;
-            text-transform: uppercase;            
+            text-transform: uppercase;
         }
 
         p {
@@ -37,7 +34,7 @@
             margin-top: 10px;
             line-height: 25px;
 
-            @include m.media-breakpoints-up(lg){
+            @include m.media-breakpoints-up(lg) {
                 font-size: 16px;
             }
         }
