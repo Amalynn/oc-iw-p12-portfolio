@@ -1,0 +1,34 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: var.$white-color;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var.$poppins;
+    font-size: 22px;
+    font-weight: map.get(var.$font-weights, regular);
+
+    &-navbar-desktop {
+        ul {
+            @include m.reset-list;
+            display: flex;
+            column-gap: 45px;
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+}

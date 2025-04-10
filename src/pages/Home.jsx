@@ -4,11 +4,15 @@ import AproposContent from "../containers/AproposContent.jsx";
 import CTASection from "../containers/CTASection.jsx";
 import ProjectsSection from "../containers/ProjectsSection.jsx";
 import SkillsSection from "../containers/SkillsSection.jsx";
+import Hero from "../components/Hero.jsx";
+import Header from "../components/Header.jsx";
 
 export default function Home() {
     return (
         <>
+            <Header />
             <main>
+                <Hero />
                 <section id="apropos" className="container-flex--center">
                     <div className="main-container">
                         <TitleSection

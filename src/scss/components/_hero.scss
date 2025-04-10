@@ -1,0 +1,86 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    color: var.$white-color;
+
+    &-image {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    &-content {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(34, 34, 34, 0.7);
+        text-align: center;
+
+        p {
+            font-size: 20px;
+            font-weight: map-get(var.$font-weights, medium);
+
+            @include m.media-breakpoints-up(md) {
+                font-size: 25px;
+            }
+
+            @include m.media-breakpoints-up(xl) {
+                font-size: 32px;
+            }
+        }
+
+        p:nth-of-type(2) {
+            font-weight: map-get(var.$font-weights, bold);
+            margin-bottom: 19px;
+
+            @include m.media-breakpoints-up(xl) {
+                margin-bottom: 15px;
+            }
+        }
+
+        p:nth-of-type(3) {
+            max-width: 310px;
+            text-align: center;
+
+            @include m.media-breakpoints-up(md) {
+                max-width: 400px;
+            }
+
+            @include m.media-breakpoints-up(xl) {
+                max-width: 660px;
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: map-get(var.$font-weights, "black");
+            margin-top: 40px;
+            margin-bottom: 50px;
+            padding: 0 10px;
+
+            @include m.media-breakpoints-up(md) {
+                font-size: 42px;
+                margin-bottom: 60px;
+            }
+
+            @include m.media-breakpoints-up(xl) {
+                font-size: 64px;
+            }
+        }
+
+        &-button-group {
+            margin-top: 70px;
+
+            @include m.media-breakpoints-up(xl) {
+                margin-top: 100px;
+            }
+        }
+    }
+}
