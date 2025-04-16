@@ -7,7 +7,7 @@ import EmailButton from "./buttons/EmailButton";
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section id="accueil" className="hero">
             <picture>
                 <source media="(max-width: 400px)" srcSet={heroImageXs} />
                 <source media="(max-width: 600px)" srcSet={heroImageSm} />

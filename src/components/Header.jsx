@@ -1,27 +1,39 @@
+import { useEffect, useState } from "react";
+import NavbarMobile from "./navbar/NavbarMobile";
+import NavbarDesktop from "./navbar/NavbarDesktop";
+
 export default function Header() {
+    const [scrolling, setScrolling] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        function handleScrolling() {
+            if (window.scrollY >= 80) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        }
+
+        window.addEventListener("scroll", handleScrolling);
+        return () => window.removeEventListener("scroll", handleScrolling);
+    }, []);
+
+    function handleClick() {
+        setIsOpen(!isOpen);
+        console.log(isOpen);
+    }
+
     return (
-        <header className="header">
-            <nav className="header-navbar-desktop">
-                <ul>
-                    <li>
-                        <a href="/" className="active">
-                            Acceuil
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#apropos">A propos</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Compétences</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projets</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <header className={scrolling ? "header header-scrolled" : "header"}>
+            <button className="button-menu" onClick={handleClick}>
+                <i className="fa-solid fa-bars"></i>
+            </button>
+            <NavbarMobile
+                isActive={isOpen}
+                onLinkClick={() => setIsOpen(false)}
+            />
+            <NavbarDesktop />
         </header>
     );
 }

@@ -10,7 +10,7 @@
     padding: 12px 0;
     font-family: var.$poppins;
     font-size: 14px;
-    font-weight: map-get(var.$font-weights, medium);    
+    font-weight: map-get(var.$font-weights, medium);
 
     @include m.media-breakpoints-up(md) {
         font-size: 16px;
@@ -19,12 +19,12 @@
     @include m.media-breakpoints-up(xl) {
         font-size: 18px;
     }
-    
+
     &-download-cv {
-        background-color: var.$ternary-color; 
+        background-color: var.$ternary-color;
         position: relative;
         overflow: hidden;
-        
+
         @include m.media-breakpoints-up(sm) {
             flex: 1 1 40%;
         }
@@ -55,15 +55,15 @@
         position: relative;
         z-index: 1;
         background-color: transparent;
-        border: 2px solid var.$ternary-color ;
+        border: 2px solid var.$ternary-color;
 
         &:hover {
             &::after {
                 opacity: 1;
             }
         }
- 
-        &::after{
+
+        &::after {
             content: "";
             position: absolute;
             top: 0;
@@ -79,6 +79,19 @@
 
         @include m.media-breakpoints-up(sm) {
             flex: 1 1 40%;
+        }
+    }
+
+    &-menu {
+        border: none;
+        background-color: transparent;
+        color: var.$white-color;
+        font-size: 40px;
+        cursor: pointer;
+        margin-left: 20px;
+
+        @include m.media-breakpoints-up(sm) {
+            display: none;
         }
     }
 }
