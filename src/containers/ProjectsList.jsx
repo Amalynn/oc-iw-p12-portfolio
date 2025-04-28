@@ -1,5 +1,6 @@
 import FilterButton from "../components/FilterButton";
 import ProjectCard from "../components/ProjectCard";
+
 import { useContext, useState } from "react";
 import { DataContext } from "../contexts/DataContext";
 
@@ -63,6 +64,7 @@ export default function ProjectsList() {
                             title={project.name}
                             srcImage={project.cover}
                             label={project.category}
+                            name={project.name}
                         />
                     ))}
             </div>

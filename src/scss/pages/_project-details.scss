@@ -1,0 +1,128 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.project-details {
+    &-title {
+        font-size: 35px;
+        text-align: center;
+        font-weight: map-get(var.$font-weights, "black");
+
+        @include m.media-breakpoints-up(md) {
+            font-size: 42px;
+        }
+
+        @include m.media-breakpoints-up(xl) {
+            font-size: 64px;
+        }
+    }
+
+    &-technologies {
+        color: var.$white-color;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        @include m.media-breakpoints-up(md) {
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        @include m.media-breakpoints-up(lg) {
+            font-size: 20px;
+        }
+
+        @include m.media-breakpoints-up(xl) {
+            margin-top: 45px;
+            margin-bottom: 60px;
+            font-size: 20px;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 5px;
+            column-gap: 10px;
+        }
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var.$ternary-color;
+            border-radius: 10px;
+            height: 27px;
+            padding: 0 20px;
+        }
+    }
+
+    &-section-title {
+        font-size: 20px;
+        font-weight: map-get(var.$font-weights, "black");
+        border-bottom: solid 2px var.$secondary-color;
+        margin-bottom: 10px;
+    }
+
+    &-content {
+        &-group {
+            margin-bottom: 50px;
+
+            @include m.media-breakpoints-up(xl) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 50px;
+            }
+        }
+
+        &-group-text {
+            section:not(:last-of-type) {
+                margin-bottom: 50px;
+            }
+
+            @include m.media-breakpoints-up(xl) {
+                flex: 1 1 48%;
+            }
+        }
+
+        &-informations {
+            font-size: 14px;
+
+            @include m.media-breakpoints-up(md) {
+                font-size: 16px;
+            }
+
+            ul {
+                list-style-type: none;
+                line-height: 2.5;
+                margin-left: 10px;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+            }
+
+            i {
+                font-size: 20px;
+                color: var.$secondary-color;
+            }
+        }
+
+        &-description {
+            p {
+                margin-top: 10px;
+            }
+        }
+
+        &-activities {
+            ul {
+                list-style-position: inside;
+                list-style-type: square;
+                margin-left: 10px;
+                line-height: 2;
+            }
+        }
+    }
+}

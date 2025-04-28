@@ -54,16 +54,21 @@
             "id": "oc-iw-p7-menumaker-2024",
             "name": "Menu Maker by Qwenta",
             "cover": "/images/projects/menumaker/menumaker-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
             "category": "Gestion de projets",
             "categoryID": "cat-01",
             "description": [
-                "Planification du développement du site Menu Maker de l'entreprise fictive Qwenta.",
-                "Qwenta est un acteur historique dans le domaine de l'impression de supports destinés aux professionnels de tous secteurs.",
-                "L'entreprise cherche à se diversifier en se positionnant notamment dans le secteur du digital avec le développement d'un outil en ligne : Menu Maker.",
-                "Menu Maker permettra aux restaurateurs de mettre en page leurs menus en quelques clics et de les publier en ligne facilement."
+                "Planification du développement du site Menu Maker de l'entreprise fictive Qwenta. Qwenta est un acteur historique dans le domaine de l'impression de supports destinés aux professionnels de tous secteurs.",
+                "L'entreprise cherche à se diversifier en se positionnant notamment dans le secteur du digital avec le développement d'un outil en ligne : Menu Maker. Menu Maker permettra aux restaurateurs de mettre en page leurs menus en quelques clics et de les publier en ligne facilement."
             ],
-            "images": [],
+            "pictures": [
+                "/images/projects/menumaker/menumaker-kanban-current-sprint.png",
+                "/images/projects/menumaker/menumaker-kanban-tableau-sprints.jpg",
+                "/images/projects/menumaker/menumaker-kanban-sprints.jpg",
+                "/images/projects/menumaker/menumaker-kanban-taches.jpg",
+                "/images/projects/menumaker/menumaker-kanban-taches-epic.jpg",
+                "/images/projects/menumaker/menumaker-kanban-taches-responsable.jpg"
+            ],
             "year": "2024",
             "technologies": ["Notion", "Scrum", "Kanban", "Feedly"],
             "activities": [
@@ -80,13 +85,13 @@
             "id": "oc-iw-p10-724events-2024",
             "name": "724events",
             "cover": "/images/projects/724events/724events-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
             "category": "Débugage",
             "categoryID": "cat-03",
             "description": [
                 "Poursuite des développements et débugage de la nouvelle version du site vitrine one-page de l'agance évènementielle fictive 724events suite au travail d'un précédent développeur."
             ],
-            "images": [],
+            "pictures": [],
             "year": "2024",
             "technologies": [
                 "React",
@@ -107,14 +112,14 @@
             "id": "oc-iw-p8-kasa-2024",
             "name": "Kasa",
             "cover": "/images/projects/kasa/kasa-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
             "category": "React",
             "categoryID": "cat-02",
             "description": [
                 "Développement de l'interface front-end de l'application Kasa avec React.",
                 "Kasa est une entreprise fictive de location d'appartements entre particuliers. Le site web de Kasa a été codé, il y en plus de 10 ans en ASP.NET avec un code legacy important. L'entreprise a donc décidé de lancer une refonte totale du site pour passer à une stack complète en JavaScript avec Node.js côté back-end et React côté front-end.  "
             ],
-            "images": [],
+            "pictures": [],
             "year": "2024",
             "technologies": [
                 "Vite",
@@ -137,13 +142,13 @@
             "id": "oc-iw-p9-nina-carducci-2024",
             "name": "Nina Carducci",
             "cover": "/images/projects/ninacarducci/ninacarducci-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
             "category": "SEO",
             "categoryID": "cat-04",
             "description": [
                 "Optimiser le référencement du site de Nina Carducci, photographe fictive, en améliorant la performance et l'accessibilité du site web."
             ],
-            "images": [],
+            "pictures": [],
             "year": "2024",
             "technologies": ["Lighthouse", "Wave", "GTMetrix"],
             "activities": [
@@ -163,14 +168,14 @@
             "id": "oc-iw-p11-argentbank-2024",
             "name": "Argent Bank",
             "cover": "/images/projects/argentbank/argentbank-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Intégrateur Web",
             "category": "React",
             "categoryID": "cat-02",
             "description": [
                 "Développer l'interface front-end de l'application bancaire Argent Bank",
                 "Argent Bank est une nouvelle banque en ligne fictive qui souhaite percer dans le secteur bancaire"
             ],
-            "images": [],
+            "pictures": [],
             "year": "2024",
             "technologies": [
                 "React",
@@ -192,13 +197,13 @@
             "id": "oc-iw-p12-portfolio-2024",
             "name": "Portfolio",
             "cover": "/images/projects/portfolio/portfolio-cover.jpg",
-            "type": "Formation OpenClassrooms - Intégrateur Web - Projet",
+            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
             "category": "React",
             "categoryID": "cat-02",
             "description": [
                 "Développement de mon portfolio présentant mon parcours, mes compétences et les projets sur lesquels j'ai travaillé"
             ],
-            "images": [],
+            "pictures": [],
             "year": "2024",
             "technologies": [
                 "React",
@@ -229,7 +234,7 @@
             "category": "PHP",
             "categoryID": "cat-05",
             "description": [""],
-            "images": [],
+            "pictures": [],
             "year": "2020-2022",
             "technologies": [
                 "PHP",
