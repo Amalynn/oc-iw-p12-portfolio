@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 import NavbarMobile from "./navbar/NavbarMobile";
 import NavbarDesktop from "./navbar/NavbarDesktop";
+import Navbar from "./navbar/Navbar";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
     const [scrolling, setScrolling] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
+    console.log(location);
 
     useEffect(() => {
         function handleScrolling() {
@@ -24,7 +28,7 @@ export default function Header() {
         console.log(isOpen);
     }
 
-    return (
+    return location.pathname === "/" ? (
         <header className={scrolling ? "header header-scrolled" : "header"}>
             <button className="button-menu" onClick={handleClick}>
                 <i className="fa-solid fa-bars"></i>
@@ -34,6 +38,10 @@ export default function Header() {
                 onLinkClick={() => setIsOpen(false)}
             />
             <NavbarDesktop />
+        </header>
+    ) : (
+        <header className="header-page">
+            <Navbar />
         </header>
     );
 }
