@@ -8,7 +8,6 @@ export default function Header() {
     const [scrolling, setScrolling] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
-    console.log(location);
 
     useEffect(() => {
         function handleScrolling() {

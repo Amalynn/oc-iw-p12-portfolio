@@ -1,0 +1,67 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    @include m.media-breakpoints-up(md) {
+        flex-direction: row;
+        column-gap: 30px;
+    }
+
+    &-image {
+        flex: 1 1 48%;
+        width: 100%;
+        height: auto;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            left: 0;
+            right: 0;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &-content {
+        flex: 1 1 48%;
+        margin: 50px 0 35px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 25px;
+            font-weight: map-get(var.$font-weights, "black");
+            text-align: center;
+
+            @include m.media-breakpoints-up(md) {
+                font-size: 35px;
+            }
+
+            @include m.media-breakpoints-up(xl) {
+                font-size: 45px;
+            }
+        }
+    }
+
+    &-button {
+        background-color: var.$ternary-color;
+        width: 60%;
+        margin: 30px auto 0 auto;
+    }
+}
