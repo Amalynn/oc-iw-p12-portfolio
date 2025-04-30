@@ -2,9 +2,11 @@
 @use "../utils/mixins" as m;
 
 .scroll-to-top-section {
+    position: absolute;
     display: flex;
     justify-content: center;
-    background-color: var.$section-bg-color;
-    padding-top: 5px ;
-    padding-bottom: 15px;    
+    background-color: var.$primary-color;
+    margin: 15px;
+    top: 0;
+    right: 0;
 }

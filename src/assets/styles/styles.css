@@ -577,6 +577,7 @@ a {
 }
 
 .footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -617,11 +618,13 @@ a {
 }
 
 .scroll-to-top-section {
+  position: absolute;
   display: flex;
   justify-content: center;
-  background-color: #f5f5f5;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  background-color: #222222;
+  margin: 15px;
+  top: 0;
+  right: 0;
 }
 
 .skills-grid {

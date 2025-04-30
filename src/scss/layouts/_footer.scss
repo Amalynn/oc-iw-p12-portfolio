@@ -2,12 +2,13 @@
 @use "../utils/mixins" as m;
 @use "sass:map";
 
-.footer {      
+.footer {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var.$footer-bg;  
+    background-color: var.$footer-bg;
     color: var.$footer-text-color;
     padding: 50px 0;
     font-family: var.$poppins;
@@ -16,13 +17,13 @@
     @include m.media-breakpoints-up(md) {
         font-size: 16px;
         padding: 25px 0;
-    }    
+    }
 
     &-media-social-group {
         display: flex;
         column-gap: 20px;
-        z-index: 2; 
-        
+        z-index: 2;
+
         @include m.media-breakpoints-up(md) {
             font-size: 35px;
         }

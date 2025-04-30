@@ -1,4 +1,3 @@
-import ScrollToTop from "../components/ScrollToTop.jsx";
 import TitleSection from "../components/TitleSection.jsx";
 import AproposContent from "../containers/AproposContent.jsx";
 import CTASection from "../containers/CTASection.jsx";
@@ -44,11 +43,6 @@ export default function Home() {
                             </p>
                         </div>
                         <ContactForm />
-                    </div>
-                </section>
-                <section className="scroll-to-top-section">
-                    <div className="container-flex-end">
-                        <ScrollToTop />
                     </div>
                 </section>
             </main>
