@@ -1,18 +1,19 @@
 @use "../utils/variables" as var;
 @use "../utils/mixins" as m;
+@use "sass:map";
 
-.main-container {    
+.main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 50px 20px;    
+    padding: 50px 20px;
 
-        @include m.media-breakpoints-up(md) {
-            padding: 80px 50px;
-        }
+    @include m.media-breakpoints-up(md) {
+        padding: 80px 50px;
+    }
 
-        @include m.media-breakpoints-up(xxl) {
-            padding: 112px 110px;
-        }
+    @include m.media-breakpoints-up(xxl) {
+        padding: 112px 110px;
+    }
 }
 
 .container-flex-end {
@@ -26,5 +27,14 @@
 
 .container-flex--center {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+}
+
+.highlight {
+    font-weight: map-get(var.$font-weights, bold);
+    font-size: 18px;
+    background: linear-gradient(120deg, #d2d4c3 0%, #d2d4c3 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 90%;
 }

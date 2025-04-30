@@ -1,0 +1,51 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as m;
+@use "sass:map";
+
+.form {
+    max-width: 800px;
+    width: 100%;
+
+    &-input {
+        margin-bottom: 20px;
+        position: relative;
+
+        label {
+            font-size: 16px;
+            font-weight: map-get(var.$font-weights, medium);
+
+            &::after {
+                content: " *";
+                color: var.$ternary-color;
+            }
+        }
+
+        &-field {
+            position: relative;
+            margin-top: 7px;
+            width: 97%;
+            height: 35px;
+            border: 1px solid var.$primary-color;
+            border-radius: 5px;
+            filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+            padding-left: 40px;
+        }
+
+        textarea {
+            padding: 10px;
+        }
+
+        &-icon {
+            position: absolute;
+            z-index: 2;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            width: 35px;
+            transform: translateY(6px);
+            color: rgba(32, 32, 32, 0.3);
+        }
+    }
+}

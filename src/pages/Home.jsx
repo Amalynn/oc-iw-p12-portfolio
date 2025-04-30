@@ -6,6 +6,7 @@ import ProjectsSection from "../containers/ProjectsSection.jsx";
 import SkillsSection from "../containers/SkillsSection.jsx";
 import Hero from "../components/Hero.jsx";
 import Header from "../components/Header.jsx";
+import ContactForm from "../containers/ContactForm.jsx";
 
 export default function Home() {
     return (
@@ -31,6 +32,18 @@ export default function Home() {
                 >
                     <div className="main-container">
                         <TitleSection title="Restons en contact" number="04" />
+                        <div className="contact-introduction">
+                            <p>
+                                Une idée ? Un projet ? Une demande
+                                d&apos;information ?
+                            </p>
+                            <p>
+                                <span className="highlight">
+                                    Parlons-en ensemble. Contactez-moi !
+                                </span>
+                            </p>
+                        </div>
+                        <ContactForm />
                     </div>
                 </section>
                 <section className="scroll-to-top-section">
