@@ -6,6 +6,7 @@ import SkillsSection from "../containers/SkillsSection.jsx";
 import Hero from "../components/Hero.jsx";
 import Header from "../components/Header.jsx";
 import ContactForm from "../containers/ContactForm.jsx";
+import EmailButton from "../components/buttons/EmailButton.jsx";
 
 export default function Home() {
     return (
@@ -29,7 +30,7 @@ export default function Home() {
                     id="contact"
                     className="section-bg--gray container-flex--center"
                 >
-                    <div className="main-container">
+                    <div className="main-container contact-container ">
                         <TitleSection title="Restons en contact" number="04" />
                         <div className="contact-introduction">
                             <p>
@@ -43,6 +44,9 @@ export default function Home() {
                             </p>
                         </div>
                         <ContactForm />
+                        <div className="contact-button">
+                            <EmailButton classesNames="contact-button-email" />
+                        </div>
                     </div>
                 </section>
             </main>
