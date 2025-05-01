@@ -59,24 +59,31 @@
             "categoryID": "cat-01",
             "description": [
                 "Planification du développement du site Menu Maker de l'entreprise fictive Qwenta. Qwenta est un acteur historique dans le domaine de l'impression de supports destinés aux professionnels de tous secteurs.",
-                "L'entreprise cherche à se diversifier en se positionnant notamment dans le secteur du digital avec le développement d'un outil en ligne : Menu Maker. Menu Maker permettra aux restaurateurs de mettre en page leurs menus en quelques clics et de les publier en ligne facilement."
+                "L'entreprise cherche à se diversifier en se positionnant notamment dans le secteur du digital avec le développement d'un outil en ligne : Menu Maker. Menu Maker est une application web qui permettra aux restaurateurs de créer et de mettre en page leurs menus en quelques clics et de les publier en ligne facilement."
             ],
             "pictures": [
-                "/images/projects/menumaker/menumaker-kanban-current-sprint.png",
-                "/images/projects/menumaker/menumaker-kanban-tableau-sprints.jpg",
-                "/images/projects/menumaker/menumaker-kanban-sprints.jpg",
-                "/images/projects/menumaker/menumaker-kanban-taches.jpg",
-                "/images/projects/menumaker/menumaker-kanban-taches-epic.jpg",
-                "/images/projects/menumaker/menumaker-kanban-taches-responsable.jpg"
+                "/images/projects/menumaker/menumaker-kanban-current-sprint.webp",
+                "/images/projects/menumaker/menumaker-kanban-tableau-sprints.webp",
+                "/images/projects/menumaker/menumaker-kanban-sprints.webp",
+                "/images/projects/menumaker/menumaker-kanban-taches.webp",
+                "/images/projects/menumaker/menumaker-kanban-taches-epic.webp",
+                "/images/projects/menumaker/menumaker-kanban-taches-responsable.webp"
             ],
             "year": "2024",
-            "technologies": ["Notion", "Scrum", "Kanban", "Feedly"],
+            "technologies": [
+                "Méthode agile",
+                "Veille technologique",
+                "Scrum",
+                "Notion",
+                "Kanban",
+                "Feedly"
+            ],
             "activities": [
-                "Rédaction des spécifications techniques",
-                "Mise en place d'une veille technologique",
+                "Rédaction des spécifications techniques à partir de besoins fonctionnels",
+                "Mise en place d'une veille technologique avec Feedly",
                 "Décomposition des fonctionnalités en tâches spécifiques",
-                "Planification du suivi du projet",
-                "Création d'un tableau Kanban",
+                "Planification du suivi du projet avec Notion",
+                "Création d'un tableau Kanban avec Notion",
                 "Présentation de la solution technique"
             ],
             "isVisible": true
@@ -85,25 +92,30 @@
             "id": "oc-iw-p10-724events-2024",
             "name": "724events",
             "cover": "/images/projects/724events/724events-cover.jpg",
-            "type": "Formation OpenClassrooms - Développeur web/Intégrateur Web",
+            "type": "Formation OpenClassrooms - Intégrateur Web",
             "category": "Débugage",
             "categoryID": "cat-03",
             "description": [
-                "Poursuite des développements et débugage de la nouvelle version du site vitrine one-page de l'agance évènementielle fictive 724events suite au travail d'un précédent développeur."
+                "Poursuite des développements et débugage de la nouvelle version du site vitrine one-page de l'agence évènementielle fictive 724events suite au travail d'un précédent développeur. Finalisation du cahier de recette avec tous les scénarios permettant de vérifier que le site fonctionne correctement."
             ],
-            "pictures": [],
+            "pictures": [
+                "/images/projects/724events/724events-homepage-slider.webp"
+            ],
             "year": "2024",
             "technologies": [
                 "React",
                 "Sass",
                 "Jest",
-                "Testing Library",
-                "Chrome DevTools"
+                "Yarn",
+                "Node.js",
+                "React Testing Library",
+                "Chrome DevTools",
+                "React Developper Tools"
             ],
             "activities": [
-                "Identification et correction de bugs",
+                "Identification et correction de bugs via les Chrome DevTools",
                 "Rédaction d'un cahier de recette",
-                "Ecriture et exécution de tests uniatires et d'intégration"
+                "Rédaction et exécution de tests unitaires et d'intégration avec Jest et React Testing Library"
             ],
             "github": "https://github.com/Amalynn/oc-iw-p10-724events",
             "isVisible": true
@@ -116,24 +128,28 @@
             "category": "React",
             "categoryID": "cat-02",
             "description": [
-                "Développement de l'interface front-end de l'application Kasa avec React.",
-                "Kasa est une entreprise fictive de location d'appartements entre particuliers. Le site web de Kasa a été codé, il y en plus de 10 ans en ASP.NET avec un code legacy important. L'entreprise a donc décidé de lancer une refonte totale du site pour passer à une stack complète en JavaScript avec Node.js côté back-end et React côté front-end.  "
+                "Kasa est une entreprise fictive de location d'appartements entre particuliers et fait partie des leaders de la location d'appartements entre particuliers en France. Le site web de Kasa a été codé en ASP.NET, il y en plus de 10 ans,  et comporte un code legacy important. L'entreprise a donc décidé de lancer une refonte totale du site pour passer à une stack complète en JavaScript avec Node.js côté back-end et React côté front-end. ",
+                "L'objectif de ce projet est donc de développer l'interface frontend de l'application Kasa avec React. "
             ],
-            "pictures": [],
+            "pictures": [
+                "/images/projects/kasa/kasa-homepage.webp",
+                "/images/projects/kasa/kasa-appartment-details.webp",
+                "/images/projects/kasa/kasa-about.webp"
+            ],
             "year": "2024",
             "technologies": [
-                "Vite",
-                "React",
-                "React Router",
+                "Vite v.5.1.0",
+                "React 18",
+                "React Router v.6",
                 "Node.js",
-                "Sass"
+                "Sass/SCSS"
             ],
             "activities": [
-                "Initialisation d'una application avec Vite",
+                "Initialisation d'une application avec Vite",
                 "Développement des éléments d'une interface web à partir de composants React",
                 "Configuration de la navigation entre les pages de l'application avec React Router",
                 "Mise en oeuvre d'animation CSS",
-                "Développement d'une interface web avec Sass"
+                "Développement d'une interface web avec Sass (SCSS)"
             ],
             "github": "https://github.com/Amalynn/oc-iw-p8-kasa",
             "isVisible": true
@@ -146,9 +162,12 @@
             "category": "SEO",
             "categoryID": "cat-04",
             "description": [
-                "Optimiser le référencement du site de Nina Carducci, photographe fictive, en améliorant la performance et l'accessibilité du site web."
+                "L'objectif de ce projet est d'optimiser le référencement du site de Nina Carducci, photographe fictive, en améliorant la performance et l'accessibilité de son site web pour obtenir un meilleur référencement sur les moteurs de recherche."
             ],
-            "pictures": [],
+            "pictures": [
+                "/images/projects/ninacarducci/nina-carducci-homepage.webp",
+                "/images/projects/ninacarducci/nina-carducci-portfolio.webp"
+            ],
             "year": "2024",
             "technologies": ["Lighthouse", "Wave", "GTMetrix"],
             "activities": [
@@ -191,7 +210,7 @@
                 "Affichage des données du backend sur l'interface via des appels API"
             ],
             "github": "https://github.com/Amalynn/oc-iw-p11-argentbank-frontend",
-            "isVisible": true
+            "isVisible": false
         },
         {
             "id": "oc-iw-p12-portfolio-2024",
@@ -201,20 +220,19 @@
             "category": "React",
             "categoryID": "cat-02",
             "description": [
-                "Développement de mon portfolio présentant mon parcours, mes compétences et les projets sur lesquels j'ai travaillé"
+                "Développement de mon portfolio présentant mon parcours, mes compétences et les projets sur lesquels j'ai travaillé."
             ],
-            "pictures": [],
-            "year": "2024",
+            "pictures": ["/images/projects/portfolio/portfolio-homepage.png"],
+            "year": "2025",
             "technologies": [
-                "React",
-                "React Router",
+                "React 18",
+                "React Router v6",
                 "Sass",
                 "Vite",
-                "Figma",
-                "Gimp"
+                "Figma"
             ],
             "activities": [
-                "Conception du design et maquettage du projet ",
+                "Conception du design et maquettage du projet avec Figma ",
                 "Choix de la charte graphique",
                 "Conception des images du site ",
                 "Développement de l'interface front-end responsive",
@@ -230,11 +248,24 @@
             "id": "msh-vdl-cepatlas-2024",
             "name": "CepAtlas",
             "cover": "/images/projects/cepatlas/cepatlas-cover.jpg",
-            "type": "Création de site web",
+            "type": "Développement de site web",
             "category": "PHP",
             "categoryID": "cat-05",
-            "description": [""],
-            "pictures": [],
+            "description": [
+                "CepAtlas est un programme de recherche financé par la région Centre-Val de Loire et le FEDER. Ce programme a été porté par l'UMR 7324 Citeres de l'Université de Tours et du CNRS.",
+                "CepAtlas est un atlas historique des cépages de France qui comprend des dossiers cartographiques accompagnés de notices explicatives et de dossiers documentaires. Cet atlas a pour objectif de (i) montrer l'évolution de l'usage des cépages, (ii) d'expliquer la richesse de modes de dénomination des cépages à travers le temps et l'espace français, (iii) de proposer une analyse originale de l'histoire des encépagements régionaux et de (iv) livrer une présentation critique des sources permettant de faire l'histoire des cépages en France."
+            ],
+            "pictures": [
+                "/images/projects/cepatlas/cepatlas-homepage.webp",
+                "/images/projects/cepatlas/cepatlas-cepages.webp",
+                "/images/projects/cepatlas/cepatlas-cepage-details.webp",
+                "/images/projects/cepatlas/cepatlas-notice-cepage.webp",
+                "/images/projects/cepatlas/cepatlas-dossier-documentaire.webp",
+                "/images/projects/cepatlas/cepatlas-dossier-documentaire-resultats.webp",
+                "/images/projects/cepatlas/cepatlas-bibliographie.webp",
+                "/images/projects/cepatlas/cepatlas-semantique.webp",
+                "/images/projects/cepatlas/cepatlas-semantique-details.webp"
+            ],
             "year": "2020-2022",
             "technologies": [
                 "PHP",
@@ -246,17 +277,66 @@
                 "QGIS",
                 "Adobe Illustrator",
                 "R",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Figma",
+                "SQL Power Architect",
+                "pgAdmin 4"
             ],
             "activities": [
-                "Maquettage du prototype",
+                "Prototypage, wireframe & maquette avec Figma",
                 "Conception et implémentation de la base de données",
                 "Développement de l'interface front-end responsive",
                 "Gestion du back-end",
                 "Génération automatique des PDF",
-                "Cartographie"
+                "Cartographie",
+                "Animation des réunions d'avancement du projet "
             ],
             "url": "https://cepatlas.huma-num.fr/",
+            "isVisible": true
+        },
+        {
+            "id": "oc-dw-p6-mon-vieux-grimoire-2025",
+            "name": "Mon Vieux Grimoire",
+            "cover": "/images/projects/monvieuxgrimoire/mon-vieux-grimoire-cover.jpg",
+            "type": "Formation OpenClassrooms - Développeur web",
+            "category": "API",
+            "categoryID": "cat-06",
+            "description": [
+                "\"Le Vieux Grimoire\" est une petite chaine de librairies fictives qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire.",
+                "Ce site permettra aux utilisateurs de consulter les livres déjà référencés et notés par d'autres utilisateurs, et aux utilisateurs membres d'ajouter un nouveau livre et de mettre une note visible par le public",
+                "L'objectif de ce projet est donc de développer le backend pour gérer les différentes fonctionnalités de ce site."
+            ],
+            "pictures": [
+                "/images/projects/monvieuxgrimoire/mon-vieux-grimoire-homepage.webp",
+                "/images/projects/monvieuxgrimoire/mon-vieux-grimoire-details-livre.webp",
+                "/images/projects/monvieuxgrimoire/mon-vieux-grimoire-ajout-livre.webp"
+            ],
+            "year": "2025",
+            "technologies": [
+                "Node.js 16",
+                "Express.js",
+                "JWT",
+                "MongoDB",
+                "Mongoose",
+                "mongoose-unique-validator",
+                "bcrypt",
+                "Sharp",
+                "Multer",
+                "Architecture MVC"
+            ],
+            "activities": [
+                "Mise en place d'un serveur Node.js",
+                "Création et configuration d'un serveur Express.js",
+                "Configuration de la base de données MongoDB",
+                "Implémentation des opérations CRUD avec Mongoose et MongoDB",
+                "Mise en place d'un système d'authentification",
+                "Gestion du téléchargement et de l'optimisation des images",
+                "Gestion de l'ajout d'une note à un livre",
+                "Gestion du calcul de la note moyenne d'un livre",
+                "Structuration de l'application suivant l'architecture MVC"
+            ],
+            "github": "https://github.com/Amalynn/oc-dw-p6-mon_vieux_grimoire-backend",
+            "url": "",
             "isVisible": true
         }
     ]

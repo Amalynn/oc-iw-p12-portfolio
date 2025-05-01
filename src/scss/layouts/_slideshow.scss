@@ -24,11 +24,7 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        object-position: center center;
-
-        @include m.media-breakpoints-up(md) {
-            border-radius: 25px;
-        }
+        object-position: left top;
     }
 
     &-arrow {
