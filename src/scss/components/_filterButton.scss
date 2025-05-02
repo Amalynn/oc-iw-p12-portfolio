@@ -3,7 +3,7 @@
 @use "sass:map";
 
 .filter-button {
-    color: var.$secondary-color;
+    color: var.$primary-color;
     background-color: var.$white-color;
     border-radius: 50px;
     border: 2px solid var.$secondary-color;
@@ -34,7 +34,7 @@
 
     &:hover {
         background-color: var.$secondary-color;
-        color: var.$white-color;
+        color: var.$primary-color;
     }
 
     &-group {
@@ -68,6 +68,6 @@
 
     &--active {
         background-color: var.$secondary-color;
-        color: var.$white-color;
+        color: var.$primary-color;
     }
 }
