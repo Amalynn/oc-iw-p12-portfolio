@@ -17,14 +17,15 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            box-shadow: 10px 10px 20px rgba(0, 0, 0, .25);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
             margin: 30px auto 45px auto;
 
             @include m.media-breakpoints-up(lg) {
                 width: 350px;
                 height: 350px;
                 flex: 0 0 auto;
-            }            
+                margin: auto;
+            }
 
             img {
                 width: 100%;
@@ -32,15 +33,20 @@
                 border-radius: 50%;
             }
         }
-        
+
         &-description {
             text-align: justify;
+            font-size: 20px;
+
+            @include m.media-breakpoints-up(md) {
+                font-size: 22px;
+            }
 
             @include m.media-breakpoints-up(lg) {
                 align-content: center;
-            } 
+            }
 
-            p:first-child {
+            p:not(:last-of-type) {
                 margin-bottom: 25px;
             }
         }

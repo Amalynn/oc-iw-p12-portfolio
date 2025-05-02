@@ -4,7 +4,7 @@
             "id": "skill-01",
             "category": "IT",
             "name": "Intégration front-end",
-            "description": "Intégration d'interfaces responsives à partir de maquettes. Mise en oeuvre d'animations CSS.",
+            "description": "Intégration d'interfaces responsives à partir de maquettes : HTML, CSS, JavaScript, React et Sass. Mise en oeuvre d'animations CSS.",
             "faIcon": "fa-solid fa-code",
             "isVisible": true
         },
@@ -20,7 +20,7 @@
             "id": "skill-03",
             "category": "IT",
             "name": "SEO",
-            "description": "Diagnostique des problèmes de performance et d'accessibilité. Optimisation du référencement naturel.",
+            "description": "Diagnostiquer des problèmes de performance et d'accessibilité. Optimisation du référencement naturel.",
             "faIcon": "fa-solid fa-arrow-trend-up",
             "isVisible": true
         },
@@ -28,7 +28,7 @@
             "id": "skill-04",
             "category": "IT",
             "name": "Débugage & Tests",
-            "description": "Rédaction d'un cahier de recette. Exécution & rédaction de tests (fonctionnels, unitaires et d'intégration). Débugage.",
+            "description": "Rédaction d'un cahier de recette. Exécution & rédaction de tests unitaires et d'intégration avec Jest et React Testing Library. Débugage.",
             "faIcon": "fa-solid fa-flask-vial",
             "isVisible": true
         },
@@ -36,7 +36,7 @@
             "id": "skill-05",
             "category": "IT",
             "name": "API",
-            "description": "Envoi et affcihage de données via des appels API. Ecriture et configuration de routes API. Rédaction de la documentation d'une API avec Swagger.",
+            "description": "Envoi et affichage de données via des appels API. Développement d'API REST. Rédaction de la documentation d'une API avec Swagger.",
             "faIcon": "fa-solid fa-server",
             "isVisible": true
         },
@@ -46,6 +46,14 @@
             "name": "Apprentissage continu",
             "description": "Veille technologique & Formation continue",
             "faIcon": "fa-solid fa-graduation-cap",
+            "isVisible": false
+        },
+        {
+            "id": "skill-07",
+            "category": "IT",
+            "name": "Base de données",
+            "description": "Conception de la structure d'une base de données avec UML. Manipulation de bases de données SQL (PostgreSQL/PostGIS) et NoSQL (MongoDB).",
+            "faIcon": "fa-solid fa-database",
             "isVisible": true
         }
     ],

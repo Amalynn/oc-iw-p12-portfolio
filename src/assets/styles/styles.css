@@ -84,7 +84,6 @@ a {
 
 .highlight {
   font-weight: 700;
-  font-size: 18px;
   background: linear-gradient(120deg, #d2d4c3 0%, #d2d4c3 100%);
   background-repeat: no-repeat;
   background-size: 100% 40%;
@@ -224,7 +223,7 @@ a {
 }
 
 .skill-card {
-  padding: 40px;
+  padding: 20px;
   width: 100%;
   border-radius: 15px;
 }
@@ -237,23 +236,38 @@ a {
 .skill-card-header i {
   font-size: 30px;
 }
-.skill-card-body h4 {
-  font-size: 13px;
+@media only screen and (min-width: 992px) {
+  .skill-card-header i {
+    font-size: 40px;
+  }
+}
+.skill-card-body h3 {
+  font-size: 16px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 992px) {
+  .skill-card-body h3 {
+    font-size: 20px;
+  }
+}
 .skill-card-body p {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin-top: 10px;
   line-height: 25px;
 }
+@media only screen and (min-width: 768px) {
+  .skill-card-body p {
+    font-size: 18px;
+  }
+}
 @media only screen and (min-width: 992px) {
   .skill-card-body p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -679,6 +693,7 @@ a {
     width: 350px;
     height: 350px;
     flex: 0 0 auto;
+    margin: auto;
   }
 }
 .apropos-content-profile img {
@@ -688,13 +703,19 @@ a {
 }
 .apropos-content-description {
   text-align: justify;
+  font-size: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .apropos-content-description {
+    font-size: 22px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .apropos-content-description {
     align-content: center;
   }
 }
-.apropos-content-description p:first-child {
+.apropos-content-description p:not(:last-of-type) {
   margin-bottom: 25px;
 }
 
@@ -1274,6 +1295,16 @@ a {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-introduction p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contact-introduction p {
+    font-size: 22px;
+  }
 }
 .contact-container {
   display: flex;

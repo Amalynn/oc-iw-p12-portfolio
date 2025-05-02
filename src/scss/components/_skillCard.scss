@@ -3,7 +3,7 @@
 @use "sass:map";
 
 .skill-card {
-    padding: 40px;
+    padding: 20px;
     width: 100%;
     border-radius: 15px;
 
@@ -15,27 +15,39 @@
 
         i {
             font-size: 30px;
+
+            @include m.media-breakpoints-up(lg) {
+                font-size: 40px;
+            }
         }
     }
 
     &-body {
-        h4 {
-            font-size: 13px;
+        h3 {
+            font-size: 16px;
             font-weight: map.get(var.$font-weights, bold);
             font-family: var.$poppins;
             text-align: center;
             letter-spacing: 1px;
             text-transform: uppercase;
+
+            @include m.media-breakpoints-up(lg) {
+                font-size: 20px;
+            }
         }
 
         p {
-            font-size: 14px;
+            font-size: 16px;
             text-align: center;
             margin-top: 10px;
             line-height: 25px;
 
+            @include m.media-breakpoints-up(md) {
+                font-size: 18px;
+            }
+
             @include m.media-breakpoints-up(lg) {
-                font-size: 16px;
+                font-size: 20px;
             }
         }
     }
