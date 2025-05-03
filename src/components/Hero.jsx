@@ -1,7 +1,7 @@
 import heroImageXs from "../assets/images/hero/hero-xs.webp";
 import heroImageSm from "../assets/images/hero/hero-sm.webp";
 import heroImageMd from "../assets/images/hero/hero-md.webp";
-import heroImageXl from "../assets/images/hero/hero-xl.jpg";
+import heroImageXl from "../assets/images/hero/hero-xl.webp";
 import DownloadCvButton from "./buttons/DownloadCvButton";
 import EmailButton from "./buttons/EmailButton";
 

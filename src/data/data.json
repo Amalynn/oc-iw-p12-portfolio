@@ -230,7 +230,7 @@
             "description": [
                 "Développement de mon portfolio présentant mon parcours, mes compétences et les projets sur lesquels j'ai travaillé."
             ],
-            "pictures": ["/images/projects/portfolio/portfolio-homepage.png"],
+            "pictures": ["/images/projects/portfolio/portfolio-homepage.webp"],
             "year": "2025",
             "technologies": [
                 "React 18",

@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import ImgError404 from "../assets/images/errors/error404.jpg";
+import ImgError404 from "../assets/images/errors/error404.webp";
 import { Link } from "react-router-dom";
 
 export default function Error404() {
