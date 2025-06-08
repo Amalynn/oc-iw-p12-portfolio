@@ -27,8 +27,8 @@ export default function AproposContent() {
                 <p>
                     Je me suis orientée ensuite vers des projets de R&D toujours
                     en géosciences mais cette fois-ci plutôt axés dans les
-                    domaines de la télédétection et géomatique. Entrée dans ce
-                    monde fut captivant et stimulant. Passée du terrain à la
+                    domaines de la télédétection et géomatique. Entrer dans ce
+                    monde fut captivant et stimulant. Passer du terrain à la
                     recherche m&apos;a permis d&apos;explorer de nouvelles
                     thématiques et méthodes de travail.
                 </p>

@@ -17,7 +17,7 @@ export default function Hero() {
 
             <div className="hero-content">
                 <p>Amandine EBNER</p>
-                <h1>Développeuse Front-end ReactJS</h1>
+                <h1>Développeuse Full-Stack JavaScript</h1>
                 <p>Concevoir. Développer. Innover</p>
                 <p>
                     Des compétences transverses au service de tous vos projets
