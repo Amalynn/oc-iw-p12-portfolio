@@ -4,7 +4,14 @@
             "id": "skill-01",
             "category": "IT",
             "name": "Intégration front-end",
-            "description": "Intégration d'interfaces responsives à partir de maquettes : HTML, CSS, JavaScript, React et Sass. Mise en oeuvre d'animations CSS.",
+            "description": [
+                "Intégration d'interfaces responsives à partir de maquettes : ",
+                {
+                    "text": "HTML, CSS, JavaScript, React et Sass. ",
+                    "highlighted": true
+                },
+                "Mise en oeuvre d'animations CSS."
+            ],
             "faIcon": "fa-solid fa-code",
             "isVisible": true
         },
@@ -12,7 +19,11 @@
             "id": "skill-02",
             "category": "Gestion de projet",
             "name": "Gestion de projet",
-            "description": "Organisation & Planification de projets (Scrum, Kanban, Waterfall). Rédaction de spécifications techniques.",
+            "description": [
+                "Organisation & Planification de projets : ",
+                { "text": "Scrum, Kanban, Waterfall. ", "highlighted": true },
+                "Rédaction de spécifications techniques."
+            ],
             "faIcon": "fa-solid fa-business-time",
             "isVisible": true
         },
@@ -20,7 +31,11 @@
             "id": "skill-03",
             "category": "IT",
             "name": "SEO",
-            "description": "Diagnostiquer des problèmes de performance et d'accessibilité. Optimisation du référencement naturel.",
+            "description": [
+                "Diagnostiquer des problèmes de performance et d'accessibilité : ",
+                { "text": "Lighthouse, WAVE. ", "highlighted": true },
+                "Optimisation du référencement naturel (SEO)."
+            ],
             "faIcon": "fa-solid fa-arrow-trend-up",
             "isVisible": true
         },
@@ -28,7 +43,19 @@
             "id": "skill-04",
             "category": "IT",
             "name": "Débugage & Tests",
-            "description": "Rédaction d'un cahier de recette. Exécution & rédaction de tests unitaires et d'intégration avec Jest et React Testing Library. Débugage.",
+            "description": [
+                "Rédaction d'un cahier de recette. Exécution & rédaction de tests unitaires et d'intégration avec ",
+                {
+                    "text": "Jest ",
+                    "highlighted": true
+                },
+                "et ",
+                {
+                    "text": "React Testing Library. ",
+                    "highlighted": true
+                },
+                "Débuggage."
+            ],
             "faIcon": "fa-solid fa-flask-vial",
             "isVisible": true
         },
@@ -36,7 +63,16 @@
             "id": "skill-05",
             "category": "IT",
             "name": "API",
-            "description": "Envoi et affichage de données via des appels API. Développement d'API REST. Rédaction de la documentation d'une API avec Swagger.",
+            "description": [
+                "Envoi et affichage de données via des appels API. ",
+                "Développement d'API REST : ",
+                {
+                    "text": "Node.js, Express.js, JWT, MongoDB, Postman. ",
+                    "highlighted": true
+                },
+                "Rédaction de documentation avec ",
+                { "text": "Swagger.", "highlighted": true }
+            ],
             "faIcon": "fa-solid fa-server",
             "isVisible": true
         },
@@ -52,7 +88,14 @@
             "id": "skill-07",
             "category": "IT",
             "name": "Base de données",
-            "description": "Conception de la structure d'une base de données avec UML. Manipulation de bases de données SQL (PostgreSQL/PostGIS) et NoSQL (MongoDB).",
+            "description": [
+                "Conception de la structure d'une base de données avec ",
+                { "text": "UML. ", "highlighted": true },
+                "Manipulation de bases de données ",
+                { "text": "SQL : PostgreSQL/PostGIS, ", "highlighted": true },
+                "et ",
+                { "text": "NoSQL : MongoDB. ", "highlighted": true }
+            ],
             "faIcon": "fa-solid fa-database",
             "isVisible": true
         }

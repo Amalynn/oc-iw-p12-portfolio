@@ -38,7 +38,7 @@ export default function Home() {
                                 d&apos;information ?
                             </p>
                             <p>
-                                <span className="highlight">
+                                <span className="highlight highlight--color">
                                     Parlons-en ensemble. Contactez-moi !
                                 </span>
                             </p>
